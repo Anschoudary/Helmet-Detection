@@ -3,9 +3,9 @@ import cv2
 import numpy as np
 
 # Define paths to your YOLOv3 files
-cfg_path = r"C:\Users\MANSC\OneDrive\Documents\VS_Code\PYTHON\Mentorness\Helmet_Detection\Model_Files\yolov3-helmet.cfg"
-weights_path = r"c:\Users\MANSC\OneDrive\Documents\VS_Code\PYTHON\Mentorness\Helmet_Detection\Model_Files\yolov3-helmet.weights"
-names_path = r"c:\Users\MANSC\OneDrive\Documents\VS_Code\PYTHON\Mentorness\Helmet_Detection\Model_Files\helmet.names"
+cfg_path = r"path\to\yolov3-helmet.cfg"
+weights_path = r"path\to\yolov3-helmet.weights"
+names_path = r"path\to\helemt.names"
 
 # Load class names
 classes = []
